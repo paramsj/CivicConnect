@@ -1,0 +1,36 @@
+{
+  "name": "civicconnect-backend",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "seed": "node scripts/seed.js",
+    "fix-counter": "node scripts/fix-counter.js",
+    "test:load": "node scripts/load-test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@clerk/backend": "^2.29.2",
+    "axios": "^1.12.2",
+    "bcrypt": "^6.0.0",
+    "bullmq": "^5.58.6",
+    "cloudinary": "^2.7.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "ioredis": "^5.7.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^7.0.0",
+    "mongoose": "^8.18.1",
+    "mongoose-sequence": "^6.0.1",
+    "multer": "^2.0.2",
+    "node-fetch": "^3.3.2",
+    "redis": "^5.8.2"
+  }
+}

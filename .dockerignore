@@ -1,0 +1,52 @@
+# ==============================================================================
+# Master .dockerignore for CivicConnect Monorepo
+# ==============================================================================
+
+# Version Control
+.git/
+.gitignore
+.gitattributes
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+venv/
+.venv/
+
+# Build artifacts
+dist/
+build/
+.vite/
+
+# Temporary files & uploads
+tmp/
+temp/
+public/temp/
+uploads/
+*.tmp
+logs/
+*.log
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Documentation
+README.md
+*.md

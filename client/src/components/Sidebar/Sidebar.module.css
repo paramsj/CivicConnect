@@ -1,0 +1,25 @@
+/* Sidebar.module.css: custom styles for sidebar */
+.sidebar {
+  background: linear-gradient(180deg, #1e3a8a 0%, #1e40af 100%);
+  box-shadow: 2px 0 8px rgba(30, 58, 138, 0.08);
+  transition: width 0.3s;
+}
+.item {
+  border-left: 4px solid transparent;
+  border-radius: 0 8px 8px 0;
+  margin-bottom: 4px;
+  opacity: 0.8;
+  transition: background 0.2s, border-color 0.2s, opacity 0.2s, transform 0.2s;
+}
+.item:hover .icon {
+  transform: translateX(2px);
+  opacity: 1;
+}
+.active {
+  background: rgba(59, 130, 246, 0.3);
+  border-left: 4px solid #60a5fa;
+  opacity: 1;
+}
+.icon {
+  opacity: 0.8;
+}

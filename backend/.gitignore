@@ -1,0 +1,33 @@
+# Node modules and logs
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build output
+dist/
+build/
+
+# Uploaded files and temp data
+public/temp/*
+!public/temp/.gitkeep
+uploads/
+*.log
+src/cache-performance-results.json
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.swp
+
+# Test output
+coverage/

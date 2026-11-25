@@ -1,0 +1,14 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+torchvision
+gunicorn
+flask
+flask-cors
+Pillow
+numpy
+scikit-learn==1.7.2
+joblib
+requests
+ftfy
+regex
+git+https://github.com/openai/CLIP.git

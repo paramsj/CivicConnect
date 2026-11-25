@@ -1,0 +1,14 @@
+/* MapSection.module.css: custom styles for map card */
+.wrapper {
+  box-shadow: 0 4px 24px rgba(30, 58, 138, 0.10);
+  border-radius: 1rem;
+  background: #fff;
+  padding: 0;
+  margin-bottom: 2rem;
+}
+.resolved {
+  /* Marker icon is green, handled by iconUrl */
+}
+.pending {
+  /* Marker icon is red, handled by iconUrl */
+}

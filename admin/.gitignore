@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# Local environment variables (never commit)
+.env
+.env.*
+!.env.example
+
+# Vite build artifacts
+.vite/
+dist/
+dist-ssr/
+
+# Local database / data files with sensitive data
+public/data/civic_users.json
+public/data/Civic_User.csv
+
+# Maps and generated files
+/.next/
+/out/
+
+# IDE / editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Tailwind CSS JIT
+.tailwind/

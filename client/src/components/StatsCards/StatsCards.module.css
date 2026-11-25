@@ -1,0 +1,13 @@
+/* StatsCards.module.css: custom styles for stats cards grid */
+.statsContainer {
+  margin-bottom: 2rem;
+}
+.card {
+  box-shadow: 0 2px 12px rgba(30, 58, 138, 0.08);
+  border-radius: 0.75rem;
+  background: #fff;
+  transition: transform 0.15s;
+}
+.card:hover {
+  transform: scaleY(0.98) translateY(-2px);
+}
