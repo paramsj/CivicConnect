@@ -46,82 +46,83 @@ const jharkhandLocations = [
 ];
 
 // Category data
+const cloudName = process.env.CLOUDINARY_CLOUD_NAME || 'demo';
 const categoryData = {
   "potholes": {
     department: "Public Works Department",
     defaultSeverity: "high",
     imagePaths: [
-        "https://res.cloudinary.com/dhkyxozav/image/upload/v1758462888/ttjbzvqibhs4kbbmpy37.jpg"
+        `https://res.cloudinary.com/${cloudName}/image/upload/v1758462888/ttjbzvqibhs4kbbmpy37.jpg`
     ]
   },
   "garbage": {
     department: "Sanitation Department",
     defaultSeverity: "high",
     imagePaths: [
-        "https://res.cloudinary.com/dhkyxozav/image/upload/v1758396762/qrpuiiaegsucpgbo3onf.jpg"
+        `https://res.cloudinary.com/${cloudName}/image/upload/v1758396762/qrpuiiaegsucpgbo3onf.jpg`
     ]
   },
   "construction road": {
     department: "Public Works Department",
     defaultSeverity: "medium",
     imagePaths: [
-        "https://res.cloudinary.com/dhkyxozav/image/upload/v1758396762/qrpuiiaegsucpgbo3onf.jpg"
+        `https://res.cloudinary.com/${cloudName}/image/upload/v1758396762/qrpuiiaegsucpgbo3onf.jpg`
     ]
   },
   "broken signage": {
     department: "Infrastructure Department",
     defaultSeverity: "medium",
     imagePaths: [
-        "https://res.cloudinary.com/dhkyxozav/image/upload/v1758465350/Untitled_rimghm.jpg"
+        `https://res.cloudinary.com/${cloudName}/image/upload/v1758465350/Untitled_rimghm.jpg`
     ]
   },
   "bad streetlight": {
     department: "Infrastructure Department",
     defaultSeverity: "medium",
     imagePaths: [
-        "https://res.cloudinary.com/dhkyxozav/image/upload/v1758395553/z39vg93xjz8drflfuwmb.jpg"
+        `https://res.cloudinary.com/${cloudName}/image/upload/v1758395553/z39vg93xjz8drflfuwmb.jpg`
     ]
   },
   "bad billboard": {
     department: "Advertising & Infrastructure",
     defaultSeverity: "medium",
     imagePaths: [
-        "https://res.cloudinary.com/dhkyxozav/image/upload/v1758369726/wjvy2e3wgodpwpytw52x.jpg"
+        `https://res.cloudinary.com/${cloudName}/image/upload/v1758369726/wjvy2e3wgodpwpytw52x.jpg`
     ]
   },
   "graffiti": {
     department: "Municipal Art & Cleaning",
     defaultSeverity: "low",
     imagePaths: [
-        "https://res.cloudinary.com/dhkyxozav/image/upload/v1758465426/Untitled_b3h6ix.jpg"
+        `https://res.cloudinary.com/${cloudName}/image/upload/v1758465426/Untitled_b3h6ix.jpg`
     ]
   },
   "faded signage": {
     department: "Infrastructure Department",
     defaultSeverity: "low",
     imagePaths: [
-        "https://res.cloudinary.com/dhkyxozav/image/upload/v1758465296/Untitled_ozzckl.jpg"
+        `https://res.cloudinary.com/${cloudName}/image/upload/v1758465296/Untitled_ozzckl.jpg`
     ]
   },
   "sand on road": {
     department: "Public Works Department",
     defaultSeverity: "low",
     imagePaths: [
-        "https://res.cloudinary.com/dhkyxozav/image/upload/v1758465616/Untitled_lymgeg.jpg"
+        `https://res.cloudinary.com/${cloudName}/image/upload/v1758465616/Untitled_lymgeg.jpg`
     ]
   },
   "clutter sidewalk": {
     department: "Sanitation Department",
     defaultSeverity: "low",
     imagePaths: [
-        "https://res.cloudinary.com/dhkyxozav/image/upload/v1758465616/Untitled_lymgeg.jpg"
+        `https://res.cloudinary.com/${cloudName}/image/upload/v1758465616/Untitled_lymgeg.jpg`
     ]
   },
   "unkept facade": {
     department: "Urban Planning / General Services",
     defaultSeverity: "low",
     imagePaths: [
-        "https://res.cloudinary.com/dhkyxozav/image/upload/v1758465616/Untitled_lymgeg.jpg"
+        `https://res.cloudinary.com/${cloudName}/image/upload/v1758465616/Untitled_lymgeg.jpg`
     ]
   }
 };
